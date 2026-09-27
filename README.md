@@ -788,12 +788,12 @@ The interface ships with the locales below. Completion is auto-refreshed on ever
 | Language | Completion | Strings | Fuzzy |
 |---|---|---:|---:|
 | English (source) | 100% | source | — |
+| Russian (`ru`) | `████████████████████` 100% | 3384/3387 | 0 |
 | Slovak (`sk`) | `████████████████████` 100% | 3381/3387 | 0 |
 | Swedish (`sv`) | `███████████████████░` 97% | 3292/3387 | 0 |
 | Italian (`it`) | `██████████████████░░` 92% | 3103/3387 | 0 |
 | Spanish (`es`) | `██████████████████░░` 91% | 3087/3387 | 0 |
 | French (`fr`) | `█████████████████░░░` 84% | 2849/3387 | 125 |
-| Russian (`ru`) | `█████████████████░░░` 83% | 2800/3387 | 0 |
 | Chinese (Traditional, Taiwan) (`zh_Hant_TW`) | `████████████████░░░░` 78% | 2654/3387 | 181 |
 | Polish (`pl`) | `███████████████░░░░░` 76% | 2570/3387 | 0 |
 | Dutch (`nl`) | `██████████████░░░░░░` 71% | 2396/3387 | 288 |
