@@ -5331,6 +5331,10 @@ msgid "Could not rename this source. Try again."
 msgstr ""
 
 #: cps/spa_strings.py
+msgid "Could not request a full Kobo sync."
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Could not request deletion from this device."
 msgstr "無法向此裝置請求刪除。"
 
@@ -6039,6 +6043,10 @@ msgid ""
 "your server and account: nothing to type on the e-reader."
 msgstr ""
 
+#: cps/spa_strings.py cps/templates/user_edit.html
+msgid "Force full kobo sync"
+msgstr "強制完整 Kobo 同步"
+
 #: cps/spa_strings.py
 msgid "Forgot password?"
 msgstr "忘記密碼？"
@@ -6070,6 +6078,10 @@ msgstr "寄件者位址"
 #: cps/spa_strings.py
 msgid "Full screen"
 msgstr "全螢幕"
+
+#: cps/spa_strings.py
+msgid "Full sync requested. Sync your Kobo to receive your library again."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Generate a new link"
@@ -7653,6 +7665,12 @@ msgstr "已選取的書籍"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Send"
 msgstr "傳送"
+
+#: cps/spa_strings.py
+msgid ""
+"Send every book to your Kobo again on its next sync? Books already on it are "
+"sent again too."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Send failed."
@@ -14821,10 +14839,6 @@ msgstr "Kobo 同步 Token"
 #: cps/templates/user_edit.html
 msgid "Create/View"
 msgstr "新建或查看"
-
-#: cps/templates/user_edit.html
-msgid "Force full kobo sync"
-msgstr "強制完整 Kobo 同步"
 
 #: cps/templates/user_edit.html
 msgid "Resend one book to this Kobo"

@@ -5635,6 +5635,10 @@ msgid "Could not rename this source. Try again."
 msgstr ""
 
 #: cps/spa_strings.py
+msgid "Could not request a full Kobo sync."
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Could not request deletion from this device."
 msgstr "No se pudo solicitar el borrado desde este dispositivo."
 
@@ -6359,6 +6363,10 @@ msgid ""
 "your server and account: nothing to type on the e-reader."
 msgstr ""
 
+#: cps/spa_strings.py cps/templates/user_edit.html
+msgid "Force full kobo sync"
+msgstr "Forzar sincronización completa con Kobo"
+
 #: cps/spa_strings.py
 msgid "Forgot password?"
 msgstr "¿Olvidaste tu contraseña?"
@@ -6390,6 +6398,10 @@ msgstr "Dirección de origen"
 #: cps/spa_strings.py
 msgid "Full screen"
 msgstr "Pantalla completa"
+
+#: cps/spa_strings.py
+msgid "Full sync requested. Sync your Kobo to receive your library again."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Generate a new link"
@@ -8018,6 +8030,12 @@ msgstr "Libros seleccionados"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Send"
 msgstr "Enviar"
+
+#: cps/spa_strings.py
+msgid ""
+"Send every book to your Kobo again on its next sync? Books already on it are "
+"sent again too."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Send failed."
@@ -15771,10 +15789,6 @@ msgstr "Token de sincronización de Kobo"
 #: cps/templates/user_edit.html
 msgid "Create/View"
 msgstr "Crear/Ver"
-
-#: cps/templates/user_edit.html
-msgid "Force full kobo sync"
-msgstr "Forzar sincronización completa con Kobo"
 
 #: cps/templates/user_edit.html
 msgid "Resend one book to this Kobo"

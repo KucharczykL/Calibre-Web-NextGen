@@ -5586,6 +5586,10 @@ msgid "Could not rename this source. Try again."
 msgstr "Tento zdroj sa nepodarilo premenovať. Skúste to znova."
 
 #: cps/spa_strings.py
+msgid "Could not request a full Kobo sync."
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Could not request deletion from this device."
 msgstr "Zmazanie z tohto zariadenia sa nepodarilo vyžiadať."
 
@@ -6323,6 +6327,10 @@ msgstr ""
 "Pre čítačku, ktorú môžete pripojiť k tomuto počítaču. Plugin už pozná váš "
 "server aj účet: na čítačke nemusíte nič zadávať."
 
+#: cps/spa_strings.py cps/templates/user_edit.html
+msgid "Force full kobo sync"
+msgstr "Vynútiť úplnú synchronizáciu Kobo"
+
 #: cps/spa_strings.py
 msgid "Forgot password?"
 msgstr "Zabudli ste heslo?"
@@ -6354,6 +6362,10 @@ msgstr "Adresa odosielateľa"
 #: cps/spa_strings.py
 msgid "Full screen"
 msgstr "Celá obrazovka"
+
+#: cps/spa_strings.py
+msgid "Full sync requested. Sync your Kobo to receive your library again."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Generate a new link"
@@ -7995,6 +8007,12 @@ msgstr "Vybrané knihy"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Send"
 msgstr "Odoslať"
+
+#: cps/spa_strings.py
+msgid ""
+"Send every book to your Kobo again on its next sync? Books already on it are "
+"sent again too."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Send failed."
@@ -15675,10 +15693,6 @@ msgstr "Synchronizačný žetón Kobo"
 #: cps/templates/user_edit.html
 msgid "Create/View"
 msgstr "Vytvoriť/Zobraziť"
-
-#: cps/templates/user_edit.html
-msgid "Force full kobo sync"
-msgstr "Vynútiť úplnú synchronizáciu Kobo"
 
 #: cps/templates/user_edit.html
 msgid "Resend one book to this Kobo"

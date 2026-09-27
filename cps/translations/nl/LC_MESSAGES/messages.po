@@ -5565,6 +5565,10 @@ msgid "Could not rename this source. Try again."
 msgstr "Kan deze bron niet hernoemen. Probeer het opnieuw."
 
 #: cps/spa_strings.py
+msgid "Could not request a full Kobo sync."
+msgstr "Kan geen volledige Kobo-synchronisatie aanvragen."
+
+#: cps/spa_strings.py
 msgid "Could not request deletion from this device."
 msgstr "Verwijdering van dit apparaat kon niet worden aangevraagd."
 
@@ -6306,6 +6310,10 @@ msgstr ""
 "Voor een e-reader die je op deze computer kunt aansluiten. De plug-in kent "
 "je server en account al: je hoeft niets in te typen op de e-reader."
 
+#: cps/spa_strings.py cps/templates/user_edit.html
+msgid "Force full kobo sync"
+msgstr "Forceer volledige Kobo synchronisatie."
+
 #: cps/spa_strings.py
 msgid "Forgot password?"
 msgstr "Wachtwoord vergeten?"
@@ -6338,6 +6346,12 @@ msgstr "Van-adres"
 #: cps/spa_strings.py
 msgid "Full screen"
 msgstr "Volledig scherm"
+
+#: cps/spa_strings.py
+msgid "Full sync requested. Sync your Kobo to receive your library again."
+msgstr ""
+"Volledige synchronisatie aangevraagd. Synchroniseer je Kobo om je "
+"bibliotheek opnieuw te ontvangen."
 
 #: cps/spa_strings.py
 msgid "Generate a new link"
@@ -7983,6 +7997,14 @@ msgstr "Geselecteerde boeken"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Send"
 msgstr "Verzenden"
+
+#: cps/spa_strings.py
+msgid ""
+"Send every book to your Kobo again on its next sync? Books already on it are "
+"sent again too."
+msgstr ""
+"Elk boek bij de volgende synchronisatie opnieuw naar je Kobo sturen? Boeken "
+"die er al op staan, worden ook opnieuw verstuurd."
 
 #: cps/spa_strings.py
 msgid "Send failed."
@@ -15370,10 +15392,6 @@ msgid "Create/View"
 msgstr "Aanmaken/Bekijken"
 
 #: cps/templates/user_edit.html
-msgid "Force full kobo sync"
-msgstr "Forceer volledige Kobo synchronisatie."
-
-#: cps/templates/user_edit.html
 msgid "Resend one book to this Kobo"
 msgstr ""
 
@@ -15712,18 +15730,6 @@ msgstr "Synchroniseer geselecteerde boekenplanken met Kobo"
 #, fuzzy
 msgid "Show Read/Unread Section"
 msgstr "Toon gelezen/niet gelezen selectie"
-
-#: cps/spa_strings.py
-msgid "Send every book to your Kobo again on its next sync? Books already on it are sent again too."
-msgstr "Elk boek bij de volgende synchronisatie opnieuw naar je Kobo sturen? Boeken die er al op staan, worden ook opnieuw verstuurd."
-
-#: cps/spa_strings.py
-msgid "Full sync requested. Sync your Kobo to receive your library again."
-msgstr "Volledige synchronisatie aangevraagd. Synchroniseer je Kobo om je bibliotheek opnieuw te ontvangen."
-
-#: cps/spa_strings.py
-msgid "Could not request a full Kobo sync."
-msgstr "Kan geen volledige Kobo-synchronisatie aanvragen."
 
 #~ msgid "Browser reading sources"
 #~ msgstr "Leesbronnen in de browser"
