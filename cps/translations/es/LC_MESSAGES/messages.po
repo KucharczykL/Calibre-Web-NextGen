@@ -5047,6 +5047,11 @@ msgid "Allowed groups (comma-separated)"
 msgstr "Grupos permitidos (separados por comas)"
 
 #: cps/spa_strings.py
+#, python-brace-format
+msgid "Also on {names}"
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Annotation pages"
 msgstr "Páginas de anotaciones"
 
@@ -7292,6 +7297,11 @@ msgstr ""
 "abre el enlace de abajo para autorizar este dispositivo."
 
 #: cps/spa_strings.py
+#, python-brace-format
+msgid "On shelf {name}"
+msgstr ""
+
+#: cps/spa_strings.py
 msgid ""
 "On the e-reader, open Tools ▸ CWNG library ▸ Connect this device and choose "
 "Connect with a code."
@@ -8200,6 +8210,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "Show password"
 msgstr "Mostrar contraseña"
+
+#: cps/spa_strings.py
+msgid "Show shelf tags"
+msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
