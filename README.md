@@ -788,6 +788,7 @@ The interface ships with the locales below. Completion is auto-refreshed on ever
 | Language | Completion | Strings | Fuzzy |
 |---|---|---:|---:|
 | English (source) | 100% | source | — |
+| Slovak (`sk`) | `████████████████████` 100% | 3381/3381 | 0 |
 | Swedish (`sv`) | `███████████████████░` 97% | 3292/3381 | 0 |
 | Italian (`it`) | `██████████████████░░` 92% | 3103/3381 | 0 |
 | Spanish (`es`) | `██████████████████░░` 91% | 3087/3381 | 0 |
@@ -804,7 +805,6 @@ The interface ships with the locales below. Completion is auto-refreshed on ever
 | Chinese (Simplified, China) (`zh_Hans_CN`) | `███████░░░░░░░░░░░░░` 34% | 1167/3381 | 342 |
 | Korean (`ko`) | `██████░░░░░░░░░░░░░░` 28% | 939/3381 | 266 |
 | Arabic (`ar`) | `█████░░░░░░░░░░░░░░░` 23% | 784/3381 | 281 |
-| Slovak (`sk`) | `████░░░░░░░░░░░░░░░░` 22% | 745/3381 | 307 |
 | Portuguese (`pt`) | `████░░░░░░░░░░░░░░░░` 21% | 697/3381 | 354 |
 | Galician (`gl`) | `████░░░░░░░░░░░░░░░░` 20% | 673/3381 | 355 |
 | Indonesian (`id`) | `████░░░░░░░░░░░░░░░░` 20% | 674/3381 | 356 |
