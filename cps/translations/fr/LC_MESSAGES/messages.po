@@ -3378,12 +3378,12 @@ msgstr "Effacer l’évaluation"
 msgid "Not rated"
 msgstr "Non évalué"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Oui"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Non"
@@ -6311,6 +6311,10 @@ msgstr "Serveur e-mail"
 msgid "Email settings saved."
 msgstr "Paramètres de messagerie enregistrés."
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Vide"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Activer la synchronisation Kobo"
@@ -6486,6 +6490,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "Adresse de l’expéditeur"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Depuis :"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8768,6 +8776,10 @@ msgstr "Texte du titre"
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "Titre, auteur ou ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Vers :"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -15257,10 +15269,6 @@ msgid "Published Date To"
 msgstr "Date de publication (jusqu’à)"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Vide"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Exclure les étiquettes"
 
@@ -15291,14 +15299,6 @@ msgstr "Évaluation supérieure à"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Évaluation inférieure à"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Depuis :"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Vers :"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

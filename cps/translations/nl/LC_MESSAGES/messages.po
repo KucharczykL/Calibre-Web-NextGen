@@ -3264,12 +3264,12 @@ msgstr "Beoordeling wissen"
 msgid "Not rated"
 msgstr "Niet beoordeeld"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Ja"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Nee"
@@ -6179,6 +6179,10 @@ msgstr "E-mailserver"
 msgid "Email settings saved."
 msgstr "E-mailinstellingen opgeslagen."
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Leeg"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Zet Kobo sync aan"
@@ -6351,6 +6355,10 @@ msgstr "Opmaak blijft behouden waar de boekpagina dit ondersteunt."
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "Van-adres"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Van:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8618,6 +8626,10 @@ msgstr "Titeltekst"
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "Titel, auteur of ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Tot:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -14928,10 +14940,6 @@ msgid "Published Date To"
 msgstr "Publicatiedatum tot"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Leeg"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Labels uitsluiten"
 
@@ -14962,14 +14970,6 @@ msgstr "Met beoordeling hoger dan"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Met beoordeling lager dan"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Van:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Tot:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

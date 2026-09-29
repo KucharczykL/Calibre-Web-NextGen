@@ -3170,12 +3170,12 @@ msgstr ""
 msgid "Not rated"
 msgstr ""
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Так"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Ні"
@@ -6002,6 +6002,10 @@ msgstr ""
 msgid "Email settings saved."
 msgstr ""
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr ""
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr ""
@@ -6165,6 +6169,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "From address"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Від:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8311,6 +8319,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "До:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -14564,10 +14576,6 @@ msgid "Published Date To"
 msgstr "Дата публікації до"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr ""
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Виключити теги"
 
@@ -14602,14 +14610,6 @@ msgstr "Рейтинг: Відсутній"
 #, fuzzy
 msgid "Rating Below"
 msgstr "Рейтинг: Відсутній"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Від:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "До:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

@@ -3118,12 +3118,12 @@ msgstr ""
 msgid "Not rated"
 msgstr ""
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "បាទ/ចាស"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "ទេ"
@@ -5950,6 +5950,10 @@ msgstr ""
 msgid "Email settings saved."
 msgstr ""
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr ""
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr ""
@@ -6112,6 +6116,10 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid "From address"
+msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
 msgstr ""
 
 #: cps/spa_strings.py
@@ -8258,6 +8266,10 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
+msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
 msgstr ""
 
 #: cps/spa_strings.py
@@ -14488,10 +14500,6 @@ msgid "Published Date To"
 msgstr "ថ្ងៃបោះពុម្ភរហូតដល់"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr ""
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "លើកលែង tag"
 
@@ -14524,14 +14532,6 @@ msgstr "ការវាយតម្លៃលើសពី"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "ការវាយតម្លៃតិចជាង"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr ""
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr ""
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

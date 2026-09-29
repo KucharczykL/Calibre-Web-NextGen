@@ -3303,12 +3303,12 @@ msgstr "Vymazať hodnotenie"
 msgid "Not rated"
 msgstr "Nehodnotené"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Áno"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Nie"
@@ -6198,6 +6198,10 @@ msgstr "E-mailový server"
 msgid "Email settings saved."
 msgstr "Nastavenia e-mailu boli uložené."
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Prázdne"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Povoliť synchronizáciu Kobo"
@@ -6367,6 +6371,10 @@ msgstr "Formátovanie sa zachová tam, kde ho stránka knihy podporuje."
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "Adresa odosielateľa"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Od:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8613,6 +8621,10 @@ msgstr "Text názvu"
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "Názov, autor alebo ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Do:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -15213,10 +15225,6 @@ msgid "Published Date To"
 msgstr "Dátum vydania do"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Prázdne"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Vylúčiť značky"
 
@@ -15247,14 +15255,6 @@ msgstr "Hodnotenie lepšie ako"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Hodnotenie horšie ako"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Od:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Do:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

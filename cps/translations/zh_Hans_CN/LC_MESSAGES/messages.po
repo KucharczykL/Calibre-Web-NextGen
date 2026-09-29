@@ -3125,12 +3125,12 @@ msgstr ""
 msgid "Not rated"
 msgstr ""
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "确认"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "没有"
@@ -5957,6 +5957,10 @@ msgstr ""
 msgid "Email settings saved."
 msgstr ""
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "空"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "启用 Kobo 同步"
@@ -6120,6 +6124,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "From address"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "从："
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8266,6 +8274,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "到："
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -14596,10 +14608,6 @@ msgid "Published Date To"
 msgstr "出版日期到"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "空"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "排除标签"
 
@@ -14630,14 +14638,6 @@ msgstr "评分大于"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "评分小于"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "从："
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "到："
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

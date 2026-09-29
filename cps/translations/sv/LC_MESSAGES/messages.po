@@ -3298,12 +3298,12 @@ msgstr "Rensa betyg"
 msgid "Not rated"
 msgstr "Inte betygsatt"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Ja"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Nej"
@@ -6183,6 +6183,10 @@ msgstr "E-postserver"
 msgid "Email settings saved."
 msgstr "E-postinställningarna har sparats."
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Tom"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Aktivera Kobo sync"
@@ -6349,6 +6353,10 @@ msgstr "Formateringen bevaras där boksidan stöder den."
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "Från-adress"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Från:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8577,6 +8585,10 @@ msgstr "Titeltext"
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "Titel, författare eller ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Till:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -15137,10 +15149,6 @@ msgid "Published Date To"
 msgstr "Publiceringsdatum till"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Tom"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Uteslut taggar"
 
@@ -15171,14 +15179,6 @@ msgstr "Betyg större än"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Betyg mindre än"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Från:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Till:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

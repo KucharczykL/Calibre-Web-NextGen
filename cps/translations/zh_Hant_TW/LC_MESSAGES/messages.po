@@ -3086,12 +3086,12 @@ msgstr "清除評價"
 msgid "Not rated"
 msgstr "無評價"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "確認"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "沒有"
@@ -5920,6 +5920,10 @@ msgstr "電子郵件伺服器"
 msgid "Email settings saved."
 msgstr "電子郵件設定已儲存。"
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "空"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "啟用Kobo同步"
@@ -6083,6 +6087,10 @@ msgstr "在書籍頁面支援的情況下，格式會被保留。"
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "寄件者位址"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "從："
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8233,6 +8241,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "書名，作者，或 ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "到："
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -14393,10 +14405,6 @@ msgid "Published Date To"
 msgstr "出版日期到"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "空"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "排除標籤"
 
@@ -14427,14 +14435,6 @@ msgstr "評分大於"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "評分小於"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "從："
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "到："
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

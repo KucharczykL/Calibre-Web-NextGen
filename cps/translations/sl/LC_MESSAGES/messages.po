@@ -3217,12 +3217,12 @@ msgstr ""
 msgid "Not rated"
 msgstr ""
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Da"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Ne"
@@ -6049,6 +6049,10 @@ msgstr ""
 msgid "Email settings saved."
 msgstr ""
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Prazen"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Omogoči sinhronizacijo s Kobo"
@@ -6212,6 +6216,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "From address"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "Od:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -8358,6 +8366,10 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr ""
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Za:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -14778,10 +14790,6 @@ msgid "Published Date To"
 msgstr "Datum objave do"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Prazen"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Izključi oznake"
 
@@ -14812,14 +14820,6 @@ msgstr "Zgornja ocena"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Spodnja ocena"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "Od:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Za:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"

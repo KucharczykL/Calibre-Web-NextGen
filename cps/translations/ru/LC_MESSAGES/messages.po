@@ -743,8 +743,8 @@ msgid ""
 "https://your-domain.com)"
 msgstr ""
 "В поле «Хост перенаправления OAuth» не следует указывать путь. Используйте "
-"только базовый URL (например, [https://your-domain.com](https://your-"
-"domain.com))"
+"только базовый URL (например, [https://your-domain.com](https://your-domain."
+"com))"
 
 #: cps/admin.py
 msgid "Password length has to be between 1 and 40"
@@ -3268,7 +3268,10 @@ msgid ""
 "If you use Kobo's built-in sync, it also leaves your Kobo at its next sync. "
 "Other e-readers keep downloaded copies, and KOReader progress sync keeps "
 "working."
-msgstr "Если вы используете встроенную синхронизацию Kobo, книга также исчезнет с вашего Kobo при следующей синхронизации. Другие читалки сохраняют скачанные копии, а синхронизация прогресса в KOReader продолжает работать."
+msgstr ""
+"Если вы используете встроенную синхронизацию Kobo, книга также исчезнет с "
+"вашего Kobo при следующей синхронизации. Другие читалки сохраняют скачанные "
+"копии, а синхронизация прогресса в KOReader продолжает работать."
 
 #: cps/spa_strings.py cps/templates/index.html
 msgid "The whole archive. Add books to your library from here."
@@ -3282,7 +3285,9 @@ msgstr "Вся библиотека"
 msgid ""
 "Without the global-browse role, only an administrator can add books to this "
 "user's library."
-msgstr "Без роли «Просмотр глобальной библиотеки» только администратор может добавлять книги в библиотеку этого пользователя."
+msgstr ""
+"Без роли «Просмотр глобальной библиотеки» только администратор может "
+"добавлять книги в библиотеку этого пользователя."
 
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "You can add it back any time from the global library."
@@ -3330,12 +3335,12 @@ msgstr "Сбросить оценку"
 msgid "Not rated"
 msgstr "Без оценки"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "Yes"
 msgstr "Да"
 
-#: cps/spa_strings.py cps/templates/book_edit.html
+#: cps/api/search.py cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/kobo_reconcile.html cps/templates/search_form.html
 msgid "No"
 msgstr "Нет"
@@ -6235,6 +6240,10 @@ msgstr "Почтовый сервер"
 msgid "Email settings saved."
 msgstr "Настройки электронной почты сохранены."
 
+#: cps/api/search.py cps/spa_strings.py cps/templates/search_form.html
+msgid "Empty"
+msgstr "Пусто"
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 msgid "Enable Kobo sync"
 msgstr "Включить синхронизацию с Kobo"
@@ -6407,6 +6416,10 @@ msgstr "Форматирование сохраняется там, где ст�
 #: cps/spa_strings.py
 msgid "From address"
 msgstr "Адрес отправителя"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "From:"
+msgstr "От:"
 
 #: cps/spa_strings.py
 msgid "Full screen"
@@ -7327,13 +7340,17 @@ msgstr ""
 msgid ""
 "On the e-reader, open Tools ▸ CWNG library ▸ Connect this device and choose "
 "Connect with a code."
-msgstr "На читалке откройте Инструменты ▸ CWNG library ▸ Connect this device и выберите «Connect with a code»."
+msgstr ""
+"На читалке откройте Инструменты ▸ CWNG library ▸ Connect this device и "
+"выберите «Connect with a code»."
 
 #: cps/spa_strings.py
 msgid ""
 "On the e-reader, open Tools ▸ CWNG library ▸ Connect this device and choose "
 "Sign in with username and password."
-msgstr "На читалке откройте Инструменты ▸ CWNG library ▸ Connect this device и выберите «Sign in with username and password»."
+msgstr ""
+"На читалке откройте Инструменты ▸ CWNG library ▸ Connect this device и "
+"выберите «Sign in with username and password»."
 
 #: cps/spa_strings.py
 msgid "On this device"
@@ -7874,7 +7891,10 @@ msgstr "Повторить попытку"
 msgid ""
 "Retry finishes the remaining accounts without changing completed selections. "
 "Undo restores the settings from before setup began."
-msgstr "Повторная попытка завершит оставшиеся аккаунты без изменения уже выполненного выбора. Отмена восстановит настройки, которые были до начала настройки."
+msgstr ""
+"Повторная попытка завершит оставшиеся аккаунты без изменения уже "
+"выполненного выбора. Отмена восстановит настройки, которые были до начала "
+"настройки."
 
 #: cps/spa_strings.py
 msgid "Reverse-proxy header login"
@@ -8618,8 +8638,8 @@ msgstr "У этого выделения нет сохранённой пози�
 #: cps/spa_strings.py
 msgid ""
 "This is this computer's own address, which the e-reader cannot reach. Choose "
-"Change and enter the address the e-reader can use, such as http://"
-"192.168.1.20:8083."
+"Change and enter the address the e-reader can use, such as "
+"http://192.168.1.20:8083."
 msgstr ""
 "Это собственный адрес этого компьютера, к которому читалка не может получить "
 "доступ. Выберите «Изменить» и введите адрес, который может использовать "
@@ -8653,7 +8673,10 @@ msgstr ""
 msgid ""
 "This request came from a different network than the one you are using. If "
 "you did not just ask for a code on your own e-reader, choose Deny."
-msgstr "Этот запрос поступил из сети, отличной от той, которую вы используете. Если вы не запрашивали код на своей собственной читалке только что, выберите «Запретить»."
+msgstr ""
+"Этот запрос поступил из сети, отличной от той, которую вы используете. Если "
+"вы не запрашивали код на своей собственной читалке только что, выберите "
+"«Запретить»."
 
 #: cps/spa_strings.py
 msgid "This shelf is empty. Add books from any book's page."
@@ -8674,6 +8697,10 @@ msgstr "Текст названия"
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
 msgstr "Название, автор или ISBN"
+
+#: cps/spa_strings.py cps/templates/search_form.html
+msgid "To:"
+msgstr "Кому:"
 
 #: cps/spa_strings.py
 msgid "Token URL"
@@ -9232,7 +9259,9 @@ msgstr "Аннотаций, назначенных этому источнику
 #: cps/spa_strings.py
 #, python-brace-format
 msgid "{n} annotations assigned to this source will become Unknown device."
-msgstr "Аннотации, привязанные к этому источнику ({n}), получат статус «Неизвестное устройство»."
+msgstr ""
+"Аннотации, привязанные к этому источнику ({n}), получат статус «Неизвестное "
+"устройство»."
 
 #: cps/spa_strings.py
 #, python-brace-format
@@ -9244,7 +9273,9 @@ msgstr "Аннотаций из этого источника: {n}"
 msgid ""
 "{n} annotations were made on this source. They are not deleted. Their origin "
 "history is kept."
-msgstr "Аннотаций, сделанных в этом источнике: {n}. Они не удаляются. История их происхождения сохраняется."
+msgstr ""
+"Аннотаций, сделанных в этом источнике: {n}. Они не удаляются. История их "
+"происхождения сохраняется."
 
 #: cps/spa_strings.py
 #, python-brace-format
@@ -9780,7 +9811,10 @@ msgid ""
 "E-reader sync for Magic Shelves is disabled globally — this shelf won't "
 "reach your e-readers until 'Sync Magic Shelves to e-readers (Kobo and "
 "KOReader)' is enabled in CWA Settings."
-msgstr "Синхронизация читалок для умных полок глобально отключена — эта полка не попадёт на ваши читалки, пока в настройках CWA не будет включена опция «Синхронизировать умные полки с читалками (Kobo и KOReader)»."
+msgstr ""
+"Синхронизация читалок для умных полок глобально отключена — эта полка не "
+"попадёт на ваши читалки, пока в настройках CWA не будет включена опция "
+"«Синхронизировать умные полки с читалками (Kobo и KOReader)»."
 
 #: cps/services/ereader_scope.py
 msgid ""
@@ -11216,8 +11250,7 @@ msgstr ""
 "Если ваша библиотека Calibre повреждена и не может быть открыта, вы можете "
 "попытаться восстановить её из файлов OPF в вашей библиотеке. Это <b>сотрёт "
 "все данные, относящиеся к книгам</b> (прогресс чтения, закладки, связи с "
-"полками, "
-"загрузки и т. д.) в базе данных приложения, но не затронет аккаунты "
+"полками, загрузки и т. д.) в базе данных приложения, но не затронет аккаунты "
 "пользователей или настройки."
 
 #: cps/templates/config_db.html
@@ -11615,9 +11648,9 @@ msgid ""
 msgstr ""
 "Необязательно. Без ключа для Google Books действует ограничение около 1000 "
 "запросов на IP-адрес в день, которое легко исчерпать на общих серверах "
-"(ошибка HTTP 429). Бесплатный ключ можно получить на [https://"
-"console.cloud.google.com](https://console.cloud.google.com) — включите "
-"«Books API» и создайте API-ключ."
+"(ошибка HTTP 429). Бесплатный ключ можно получить на [https://console.cloud."
+"google.com](https://console.cloud.google.com) — включите «Books API» и "
+"создайте API-ключ."
 
 #: cps/templates/config_edit.html
 msgid "Allow Reverse Proxy Authentication"
@@ -12630,9 +12663,9 @@ msgid ""
 "\">kindle-epub-fix.netlify.app</a> tool made by <a href=\"https://github.com/"
 "innocenat\">innocenat</a>."
 msgstr ""
-"Этот инструмент был адаптирован из утилиты <a href=\"https://kindle-epub-"
-"fix.netlify.app/\">kindle-epub-fix.netlify.app</a>, созданной <a "
-"href=\"https://github.com/innocenat\">innocenat</a>."
+"Этот инструмент был адаптирован из утилиты <a href=\"https://kindle-epub-fix."
+"netlify.app/\">kindle-epub-fix.netlify.app</a>, созданной <a href=\"https://"
+"github.com/innocenat\">innocenat</a>."
 
 #: cps/templates/cwa_settings.html
 msgid "Enable KOReader Sync (NextGen Plugin)"
@@ -12655,9 +12688,9 @@ msgid ""
 "container after disabling."
 msgstr ""
 "Примечание: Включение этой опции запускает службу фонового вычисления "
-"контрольных сумм при старте, что может временно заблокировать файл "
-"metadata.db. Чтобы остановить запущенный процесс, отключите опцию и "
-"перезапустите контейнер."
+"контрольных сумм при старте, что может временно заблокировать файл metadata."
+"db. Чтобы остановить запущенный процесс, отключите опцию и перезапустите "
+"контейнер."
 
 #: cps/templates/cwa_settings.html
 msgid "Enable Aggressive EPUB Fixer Mode (riskier)"
@@ -13251,7 +13284,10 @@ msgid ""
 "When active, Magic Shelves marked for e-reader sync reach your Kobo as "
 "collections and your KOReader library as shelves. Kobo also needs Kobo Sync "
 "in Basic Configuration."
-msgstr "Когда активно, умные полки, отмеченные для синхронизации с читалками, попадают на ваш Kobo как коллекции, а в библиотеку KOReader — как полки. Для Kobo также требуется включить Kobo Sync в основных настройках."
+msgstr ""
+"Когда активно, умные полки, отмеченные для синхронизации с читалками, "
+"попадают на ваш Kobo как коллекции, а в библиотеку KOReader — как полки. Для "
+"Kobo также требуется включить Kobo Sync в основных настройках."
 
 #: cps/templates/cwa_settings.html
 msgid "Sync Magic Shelves to Kobo"
@@ -15324,10 +15360,6 @@ msgid "Published Date To"
 msgstr "Дата публикации по"
 
 #: cps/templates/search_form.html
-msgid "Empty"
-msgstr "Пусто"
-
-#: cps/templates/search_form.html
 msgid "Exclude Tags"
 msgstr "Исключить теги"
 
@@ -15358,14 +15390,6 @@ msgstr "Рейтинг выше"
 #: cps/templates/search_form.html
 msgid "Rating Below"
 msgstr "Рейтинг ниже"
-
-#: cps/templates/search_form.html
-msgid "From:"
-msgstr "От:"
-
-#: cps/templates/search_form.html
-msgid "To:"
-msgstr "Кому:"
 
 #: cps/templates/shelf.html
 msgid "Delete this Shelf"
@@ -16662,9 +16686,9 @@ msgstr "Показать раздел прочитанного/непрочит�
 #~ "metadata.db при запуске. Если найдена только одна библиотека, она "
 #~ "монтируется автоматически; если найдено несколько, по умолчанию будет "
 #~ "смонтирована самая большая, а если ни одной нет, будет автоматически "
-#~ "создана и смонтирована новая. Для подробностей, <a href=\"https://"
-#~ "github.com/crocodilestick/Calibre-Web-Automated/wiki/"
-#~ "Configuration#database-configuration\">см. здесь</a>!"
+#~ "создана и смонтирована новая. Для подробностей, <a href=\"https://github."
+#~ "com/crocodilestick/Calibre-Web-Automated/wiki/Configuration#database-"
+#~ "configuration\">см. здесь</a>!"
 
 #~ msgid ""
 #~ "Therefore, when configuring your docker-compose file for CWA, <b>DO NOT "
