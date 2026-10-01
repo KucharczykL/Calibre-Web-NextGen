@@ -5083,6 +5083,10 @@ msgid "Allowed groups (comma-separated)"
 msgstr "Разрешённые группы (через запятую)"
 
 #: cps/spa_strings.py
+msgid "Allowed torrent tracker origins"
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Also add the book to My Library"
 msgstr ""
 
@@ -5402,6 +5406,15 @@ msgid ""
 msgstr ""
 
 #: cps/spa_strings.py
+msgid ""
+"CWNG copies a completed EPUB or PDF from this mapping. It does not move "
+"files, delete client jobs, or change seeding limits. NZBGet needs "
+"credentials that can read configuration, queue and history. qBittorrent "
+"needs an existing category. Transmission uses the configured folder and "
+"label."
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Can browse and request"
 msgstr ""
 
@@ -5492,16 +5505,16 @@ msgid "Checking…"
 msgstr "Проверка…"
 
 #: cps/spa_strings.py
-msgid "Choose a SABnzbd connection"
-msgstr ""
-
-#: cps/spa_strings.py
 msgid "Choose a cover"
 msgstr "Выбрать обложку"
 
 #: cps/spa_strings.py
 msgid "Choose a cover image to upload"
 msgstr "Выберите изображение обложки для загрузки"
+
+#: cps/spa_strings.py
+msgid "Choose a download client connection"
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Choose an image…"
@@ -5534,6 +5547,10 @@ msgstr "Снять выделение"
 #: cps/spa_strings.py
 msgid "Client ID"
 msgstr "ID клиента"
+
+#: cps/spa_strings.py
+msgid "Client category or label"
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Client secret"
@@ -5572,7 +5589,7 @@ msgid "Compact"
 msgstr "Компактно"
 
 #: cps/spa_strings.py
-msgid "Completed folder as SABnzbd sees it"
+msgid "Completed folder as the download client sees it"
 msgstr ""
 
 #: cps/spa_strings.py
@@ -7083,9 +7100,9 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"Let people request books from an OPDS catalog or an indexer connected to "
-"SABnzbd. A requested book is imported into this library through the normal "
-"ingest path, credited to the account that asked for it."
+"Let people request books from an OPDS catalog or an indexer connected to a "
+"download client. A requested book is imported into this library through the "
+"normal ingest path, credited to the account that asked for it."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -7103,6 +7120,13 @@ msgstr "Межстрочный интервал"
 #: cps/spa_strings.py
 msgid "Link address"
 msgstr "Адрес ссылки"
+
+#: cps/spa_strings.py
+msgid ""
+"List the exact HTTP, HTTPS or UDP tracker origins you trust, separated by "
+"commas. Torrents using other trackers are blocked. Source credentials are "
+"never sent to trackers."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Load more"
@@ -7352,6 +7376,10 @@ msgstr "Мои пресеты"
 #: cps/spa_strings.py
 msgid "My private cover"
 msgstr "Моя личная обложка"
+
+#: cps/spa_strings.py
+msgid "NZBGet download client"
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "Name"
@@ -8357,27 +8385,7 @@ msgid "Run time"
 msgstr "Время выполнения"
 
 #: cps/spa_strings.py
-msgid "SABnzbd category"
-msgstr ""
-
-#: cps/spa_strings.py
-msgid ""
-"SABnzbd did not finish this download before the waiting limit. Check its "
-"queue before retrying."
-msgstr ""
-
-#: cps/spa_strings.py
-msgid ""
-"SABnzbd did not report a completed folder and category that could be "
-"verified."
-msgstr ""
-
-#: cps/spa_strings.py
 msgid "SABnzbd download client"
-msgstr ""
-
-#: cps/spa_strings.py
-msgid "SABnzbd reported that this download failed."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9144,13 +9152,18 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"The completed-folder mapping does not cover the configured SABnzbd category."
+"The completed-folder mapping does not cover the configured download client "
+"folder."
 msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
 "The connection could not be deleted. Finish or cancel outstanding requests "
 "first."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid "The connection did not answer with a response we can read."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9163,6 +9176,18 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
+"The download client did not finish this download before the waiting limit. "
+"Check its queue before retrying."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid ""
+"The download client did not report a completed folder and category that "
+"could be verified."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid ""
 "The download client for this source is unavailable. Ask an administrator to "
 "check it."
 msgstr ""
@@ -9171,6 +9196,10 @@ msgstr ""
 msgid ""
 "The download client is unavailable or its settings changed. Make a new "
 "selection after an administrator checks it."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid "The download client reported that this download failed."
 msgstr ""
 
 #: cps/spa_strings.py cps/templates/user_edit.html
@@ -9282,8 +9311,8 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"The source or download client rejected its API key. Ask an administrator to "
-"check the credential."
+"The source or download client rejected its credentials. Ask an administrator "
+"to check the credential."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9294,8 +9323,13 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"The submission could not be confirmed. Check SABnzbd queue and history "
-"before trying again; CWNG will not blindly send a duplicate."
+"The submission could not be confirmed. Check the download client queue and "
+"history before trying again; CWNG will not blindly send a duplicate."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid ""
+"The torrent descriptor is unsupported or contains unsafe paths or links."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9338,15 +9372,11 @@ msgid "This catalog does not offer search."
 msgstr ""
 
 #: cps/spa_strings.py
-msgid "This catalog is on my home or local network"
-msgstr ""
-
-#: cps/spa_strings.py
 msgid "This catalog page is empty."
 msgstr ""
 
 #: cps/spa_strings.py
-msgid "This category does not exist in SABnzbd."
+msgid "This category does not exist in the download client."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9371,6 +9401,10 @@ msgid "This code has already been approved or declined."
 msgstr "Этот код уже был одобрен или отклонён."
 
 #: cps/spa_strings.py
+msgid "This connection is on my home or local network"
+msgstr ""
+
+#: cps/spa_strings.py
 msgid ""
 "This database carries permissions from the old experimental Store. They need "
 "review before book sources can be switched on."
@@ -9383,6 +9417,12 @@ msgstr "Это устройство ещё не сообщило о своей �
 #: cps/spa_strings.py
 msgid "This device will no longer sync."
 msgstr "Это устройство больше не будет синхронизироваться."
+
+#: cps/spa_strings.py
+msgid ""
+"This download client API version is not supported. Check the documented "
+"supported versions."
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "This e-reader is unavailable or belongs to another account."
@@ -9402,8 +9442,8 @@ msgstr "У этого выделения нет сохранённой пози�
 
 #: cps/spa_strings.py
 msgid ""
-"This is a torrent release. A compatible torrent client is required; SABnzbd "
-"accepts NZB releases."
+"This is a torrent release. Choose qBittorrent or Transmission for this "
+"indexer. Usenet clients accept NZB releases."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9418,8 +9458,8 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"This job is no longer in SABnzbd queue or history. It will not be submitted "
-"again automatically."
+"This job is no longer in the download client queue or history. It will not "
+"be submitted again automatically."
 msgstr ""
 
 #: cps/spa_strings.py
@@ -9476,6 +9516,17 @@ msgid "This shelf is empty. Add books from any book's page."
 msgstr "Эта полка пуста. Добавьте книги со страницы любой книги."
 
 #: cps/spa_strings.py
+msgid ""
+"This torrent already exists outside this request. CWNG will not adopt or "
+"change an unrelated client job."
+msgstr ""
+
+#: cps/spa_strings.py
+msgid ""
+"This torrent uses a tracker outside the origins allowed by the administrator."
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Title A–Z"
 msgstr "Название А–Я"
 
@@ -9528,6 +9579,10 @@ msgid "Top of catalog"
 msgstr ""
 
 #: cps/spa_strings.py
+msgid "Transmission download client"
+msgstr ""
+
+#: cps/spa_strings.py
 msgid "Trust authentication header"
 msgstr "Доверять заголовку аутентификации"
 
@@ -9545,9 +9600,10 @@ msgstr ""
 
 #: cps/spa_strings.py
 msgid ""
-"Turn this on for a catalog running on your own network, such as Calibre or "
-"Kavita on a 192.168 or 10.x address. It applies to this catalog only. "
-"Loopback, link-local and cloud metadata addresses are never allowed."
+"Turn this on for a connection running on your own network, such as a "
+"catalog, indexer or download client on a 192.168 or 10.x address. It applies "
+"to this connection only. Loopback, link-local and cloud metadata addresses "
+"are never allowed."
 msgstr ""
 
 #: cps/spa_strings.py cps/templates/read.html
@@ -9976,6 +10032,10 @@ msgstr "Тема письма для читалки"
 #: cps/spa_strings.py
 msgid "just now"
 msgstr "только что"
+
+#: cps/spa_strings.py
+msgid "qBittorrent download client"
+msgstr ""
 
 #: cps/spa_strings.py
 msgid "shared"
